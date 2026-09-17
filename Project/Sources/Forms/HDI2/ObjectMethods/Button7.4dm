@@ -1,8 +1,5 @@
-C_LONGINT:C283($i; $n)
-C_LONGINT:C283($nbBool; $nbText; $nbReal; $nbObject; $nbNull; $nbUndefined)
-C_LONGINT:C283($type)
+var $i; $n; $nbBool; $nbText; $nbReal; $nbObject; $nbNull; $nbUndefined; $type : Integer
 
-C_COLLECTION:C1488(col)
 
 $nbBool:=0
 $nbText:=0

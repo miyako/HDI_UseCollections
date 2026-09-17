@@ -29,11 +29,12 @@
 					"width": 320,
 					"height": 77,
 					"visibility": "hidden",
-					"stroke": "#FF4D00",
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+					"text": ":xliff:HDI_TxtSorryDesignMode",
+					"class": "hdi-warning-text",
+					"fill": "automatic"
 				},
 				"TxtInfo1": {
 					"type": "text",
@@ -43,7 +44,9 @@
 					"height": 18,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": "How Do I..."
+					"text": ":xliff:HDI_Title",
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"TxtInfo2": {
 					"type": "text",
@@ -53,7 +56,9 @@
 					"height": 88,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": "- Create and use the new variable type \"Collection\"\r- Read and write items in these variables ?"
+					"text": ":xliff:HDI_Info",
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"TxtSorry2": {
 					"type": "text",
@@ -64,7 +69,9 @@
 					"visibility": "hidden",
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Sorry, this “How do I” (HDI) \rexample must be used with\ra newer version of 4D\r(v16 and above)."
+					"text": ":xliff:HDI_TxtSorryOldVersion",
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"TxtVersion": {
 					"type": "text",
@@ -74,7 +81,9 @@
 					"height": 16,
 					"fontFamily": "Lucida Grande",
 					"fontSize": 12,
-					"text": "(4D v16 R3 and above…)"
+					"text": ":xliff:HDI_TxtVersion",
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"TxtSorry3": {
 					"type": "text",
@@ -83,27 +92,27 @@
 					"width": 320,
 					"height": 37,
 					"visibility": "hidden",
-					"stroke": "#FF4D00",
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "The plugin xxx is mandatory"
+					"text": ":xliff:HDI_TxtSorryPlugin",
+					"class": "hdi-warning-text",
+					"fill": "automatic"
 				},
 				"BtnDemo": {
 					"type": "button",
 					"top": 280,
 					"left": 250,
 					"width": 90,
-					"height": 20,
-					"dataSource": "Demo",
 					"action": "Accept",
-					"text": "Demo",
+					"text": ":xliff:HDI_BtnDemo",
 					"class": "default",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/BtnDemo.4dm"
 				},
 				"Picture3": {
 					"type": "picture",

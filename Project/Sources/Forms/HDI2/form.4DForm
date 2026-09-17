@@ -66,7 +66,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -80,9 +81,9 @@
 					"height": 50,
 					"sizingX": "move",
 					"sizingY": "move",
-					"fill": "#D6D6D6",
 					"stroke": "transparent",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi2-panel"
 				},
 				"Round Rectangle1": {
 					"type": "rectangle",
@@ -92,9 +93,9 @@
 					"height": 430,
 					"sizingX": "move",
 					"sizingY": "grow",
-					"fill": "#D6D6D6",
 					"stroke": "transparent",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi2-panel"
 				},
 				"Variable": {
 					"type": "input",
@@ -113,67 +114,68 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Button": {
 					"type": "button",
 					"top": 530,
 					"left": 640,
 					"width": 120,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Stringify col1",
+					"text": ":xliff:HDI2_BtnStringifyCol1",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 530,
 					"left": 780,
 					"width": 120,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Stringify col2",
+					"text": ":xliff:HDI2_BtnStringifyCol2",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 530,
 					"left": 920,
 					"width": 120,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Stringify col3",
+					"text": ":xliff:HDI2_BtnStringifyCol3",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button4": {
 					"type": "button",
 					"top": 660,
 					"left": 640,
 					"width": 400,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Execute this code",
+					"text": ":xliff:HDI2_BtnExecute",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable2": {
 					"type": "input",
@@ -192,7 +194,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"vHDI1": {
 					"type": "input",
@@ -212,7 +215,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Line": {
 					"type": "line",
@@ -234,9 +238,9 @@
 					"height": 560,
 					"sizingX": "move",
 					"sizingY": "grow",
-					"fill": "#D6D6D6",
 					"stroke": "transparent",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi2-panel"
 				},
 				"vHDI4": {
 					"type": "input",
@@ -256,22 +260,23 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Button5": {
 					"type": "button",
 					"top": 660,
 					"left": 640,
 					"width": 400,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Execute this code",
+					"text": ":xliff:HDI2_BtnExecute",
 					"focusable": false,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable3": {
 					"type": "input",
@@ -293,7 +298,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -327,7 +333,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -341,9 +348,9 @@
 					"height": 230,
 					"sizingX": "move",
 					"sizingY": "move",
-					"fill": "#D6D6D6",
 					"stroke": "transparent",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi2-panel"
 				},
 				"vHDI3": {
 					"type": "input",
@@ -363,22 +370,23 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 660,
 					"left": 800,
 					"width": 240,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Execute this code",
+					"text": ":xliff:HDI2_BtnExecute",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text": {
 					"type": "text",
@@ -389,7 +397,9 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "vNum"
+					"text": "vNum",
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -400,7 +410,9 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "vString"
+					"text": "vString",
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Text2": {
 					"type": "text",
@@ -411,7 +423,9 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "obj"
+					"text": "obj",
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Text3": {
 					"type": "text",
@@ -422,7 +436,9 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "boo"
+					"text": "boo",
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Variable5": {
 					"type": "input",
@@ -442,7 +458,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Variable6": {
 					"type": "input",
@@ -460,7 +478,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Variable7": {
 					"type": "input",
@@ -479,7 +499,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Check Box": {
 					"type": "checkbox",
@@ -494,7 +516,9 @@
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				}
 			}
 		},
@@ -505,15 +529,15 @@
 					"top": 660,
 					"left": 800,
 					"width": 240,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Execute this code",
+					"text": ":xliff:HDI2_BtnExecute",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"vHDI5": {
 					"type": "input",
@@ -533,7 +557,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Round Rectangle4": {
 					"type": "rectangle",
@@ -543,9 +568,9 @@
 					"height": 560,
 					"sizingX": "move",
 					"sizingY": "grow",
-					"fill": "#D6D6D6",
 					"stroke": "transparent",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi2-panel"
 				},
 				"Variable4": {
 					"type": "input",
@@ -567,7 +592,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -578,15 +604,15 @@
 					"top": 660,
 					"left": 800,
 					"width": 240,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Execute this code",
+					"text": ":xliff:HDI2_BtnExecute",
 					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"vHDI6": {
 					"type": "input",
@@ -605,7 +631,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Round Rectangle5": {
 					"type": "rectangle",
@@ -615,9 +642,9 @@
 					"height": 40,
 					"sizingX": "grow",
 					"sizingY": "move",
-					"fill": "#D6D6D6",
 					"stroke": "transparent",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi2-panel"
 				},
 				"Variable8": {
 					"type": "input",
@@ -638,7 +665,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		}
