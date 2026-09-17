@@ -1,0 +1,19 @@
+//%attributes = {"invisible":true}
+C_COLLECTION:C1488(col)
+C_COLLECTION:C1488(col1)
+C_COLLECTION:C1488(col2)
+C_COLLECTION:C1488(col3)
+
+C_REAL:C285(Demo)
+
+C_OBJECT:C1216(obj)
+
+C_BOOLEAN:C305(boo)
+
+C_LONGINT:C283(vNum)
+
+C_TEXT:C284(objStr)
+C_TEXT:C284(vHDI)
+C_TEXT:C284(vString)
+C_TEXT:C284(vstring1)
+C_TEXT:C284(vString2)
