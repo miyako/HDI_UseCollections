@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_BtnStringifyCol1" resname="HDI2_BtnStringifyCol1">
+        <source>Stringify col1</source>
+        <target>Stringify col1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnStringifyCol2" resname="HDI2_BtnStringifyCol2">
+        <source>Stringify col2</source>
+        <target>Stringify col2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnStringifyCol3" resname="HDI2_BtnStringifyCol3">
+        <source>Stringify col3</source>
+        <target>Stringify col3</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnExecute" resname="HDI2_BtnExecute">
+        <source>Execute this code</source>
+        <target>Execute this code</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

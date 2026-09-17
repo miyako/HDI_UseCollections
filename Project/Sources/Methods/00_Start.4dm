@@ -1,26 +1,39 @@
 //%attributes = {}
-C_LONGINT:C283($1)
-C_LONGINT:C283($Ref; $pss)
+#DECLARE($params : Object)
 
-Case of 
-	: (Count parameters:C259=0)
-		$pss:=New process:C317(Current method name:C684; 64000; Current method name:C684; Red:K11:4)
-		
-	Else 
-		
-		$Ref:=Open form window:C675("HDI"; Plain form window:K39:10; Horizontally centered:K39:1; Vertically centered:K39:4)
-		DIALOG:C40("HDI")
-		CLOSE WINDOW:C154
-		
-		If (<>Quit=True:C214)
-			QUIT 4D:C291
-		Else 
-			
-			$Ref:=Open form window:C675("HDI2"; Plain form window:K39:10; Horizontally centered:K39:1; Vertically centered:K39:4)
-			DIALOG:C40("HDI2")
-			CLOSE WINDOW:C154
-			
+var $splashWindowTitle : Text
+$splashWindowTitle:=""
+
+If (Count parameters=0)
+	
+	ARRAY LONGINT($windows; 0)
+	WINDOW LIST($windows)
+	
+	var $i; $window : Integer
+	For ($i; 1; Size of array($windows))
+		$window:=$windows{$i}
+		If (Window process($window)=1) && (Get window title($window)=$splashWindowTitle)
+			var $x; $y; $bottom; $right : Integer
+			GET WINDOW RECT($x; $y; $bottom; $right; $window)
+			CALL FORM($window; Formula(SET WINDOW RECT($x; $y; $bottom; $right; $window)))
+			return 
 		End if 
-		
-End case 
-
+	End for 
+	
+	CALL WORKER(1; Current method name; {})
+	
+Else 
+	
+	SET MENU BAR(1)
+	
+	var $options : Object
+	$options:=New object
+	$options.title:=Localized string("HDI_Title")
+	$options.blog:="blog.4d.com"
+	$options.info:=Localized string("HDI_Info")
+	
+	$window:=Open form window("HDI"; Plain form window; Horizontally centered; Vertically centered)
+	SET WINDOW TITLE($splashWindowTitle; $window)
+	DIALOG("HDI"; $options; *)
+	
+End if 

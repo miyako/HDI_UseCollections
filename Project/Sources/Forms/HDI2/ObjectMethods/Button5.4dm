@@ -1,5 +1,3 @@
-C_OBJECT:C1216(obj)
-C_COLLECTION:C1488(col1; col2)
 
 //TRACE
 

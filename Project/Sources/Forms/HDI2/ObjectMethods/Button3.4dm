@@ -1,4 +1,4 @@
-C_OBJECT:C1216($obj)
+var $obj : Object
 
 $obj:=New object:C1471("val"; "Echo")
 

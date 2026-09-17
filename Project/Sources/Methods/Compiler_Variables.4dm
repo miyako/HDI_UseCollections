@@ -1,19 +1,10 @@
 //%attributes = {"invisible":true}
-C_COLLECTION:C1488(col)
-C_COLLECTION:C1488(col1)
-C_COLLECTION:C1488(col2)
-C_COLLECTION:C1488(col3)
+var col; col1; col2; col3 : Collection
 
-C_REAL:C285(Demo)
+var obj : Object
 
-C_OBJECT:C1216(obj)
+var boo : Boolean
 
-C_BOOLEAN:C305(boo)
+var vNum : Integer
 
-C_LONGINT:C283(vNum)
-
-C_TEXT:C284(objStr)
-C_TEXT:C284(vHDI)
-C_TEXT:C284(vString)
-C_TEXT:C284(vstring1)
-C_TEXT:C284(vString2)
+var objStr; vHDI; vString; vstring1; vString2 : Text

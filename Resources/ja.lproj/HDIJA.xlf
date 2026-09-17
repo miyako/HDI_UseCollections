@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI_Title" resname="HDI_Title">
+        <source>How Do I...</source>
+        <target>使い方...</target>
+      </trans-unit>
+      <trans-unit id="HDI_Info" resname="HDI_Info">
+        <source>- Create and use the new variable type "Collection"- Read and write items in these variables ?</source>
+        <target>- 新しい変数タイプ「Collection」を作成して使用する- これらの変数の項目を読み書きする？</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtSorryDesignMode" resname="HDI_TxtSorryDesignMode">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>このバージョンでこのHDIをデザインモードで開かないでください。機能不足のため、フォームやメソッドが変更される可能性があります。</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtSorryOldVersion" resname="HDI_TxtSorryOldVersion">
+        <source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</source>
+        <target>申し訳ございませんが、この「How do I」(HDI)例はより新しいバージョンの4Dで使用する必要があります(v16以降)。</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtVersion" resname="HDI_TxtVersion">
+        <source>(4D v16 R3 and above…)</source>
+        <target>(4D v16 R3 以降…)</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtSorryPlugin" resname="HDI_TxtSorryPlugin">
+        <source>The plugin xxx is mandatory</source>
+        <target>プラグイン xxx が必須です</target>
+      </trans-unit>
+      <trans-unit id="HDI_BtnDemo" resname="HDI_BtnDemo">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

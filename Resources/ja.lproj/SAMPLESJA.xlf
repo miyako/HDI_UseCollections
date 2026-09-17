@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/3" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="SAMPLES_Header" resname="SAMPLES_Header">
+        <source>SAMPLES</source>
+        <target>SAMPLES</target>
+      </trans-unit>
+      <trans-unit id="SAMPLES_LabelID" resname="SAMPLES_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="SAMPLES_LabelSampleSort" resname="SAMPLES_LabelSampleSort">
+        <source>SampleSort : </source>
+        <target>SampleSort : </target>
+      </trans-unit>
+      <trans-unit id="SAMPLES_LabelText" resname="SAMPLES_LabelText">
+        <source>Text : </source>
+        <target>テキスト : </target>
+      </trans-unit>
+      <trans-unit id="SAMPLES_LabelTitle" resname="SAMPLES_LabelTitle">
+        <source>Title : </source>
+        <target>タイトル : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
